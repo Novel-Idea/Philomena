@@ -1,4 +1,4 @@
-# SoulBOT — A Discord Bot with a Soul!
+# Philomena (Based on SoulBot!) — A Discord Bot with a Soul!
 
 Welcome to the work in progress that is SoulBOT, a NodeJS bot utilization the Discord.JS library.  The main feature of SoulBOT is its soul, which allows you to give your bot a personality.  Will yours be friendly?  Snarky?  Shy?  The possibilities are as endless as your imagination!
 
