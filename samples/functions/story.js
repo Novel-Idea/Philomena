@@ -27,8 +27,8 @@ module.exports = {
       bot.helpers.getJSON({
         url: "https://www.fimfiction.net/api/v2/stories?sort=-relevance&" + (storyId != 0 ? 'filter[ids]=' + storyId : 'query=' + args),
         headers: {
-          "User-Agent": "AzuBOT/1.0",
-          "Authorization": "Bearer " + bot.config.fimfictionAccessKey
+			"User-Agent": bot.config.userAgent,
+			"Authorization": "Bearer " + bot.config.fimfictionAccessKey
         }
       }, function(response) {
         if (!response.data || response.data.length == 0) {
